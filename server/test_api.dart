@@ -1,0 +1,1 @@
+import 'dart:convert'; import 'package:http/http.dart' as http; void main() async { var res = await http.post(Uri.parse('http://localhost:8080/api/categories'), headers: {'Content-Type': 'application/json'}, body: jsonEncode({'name': 'Test Kat', 'type': 'mutfak'})); print('Status: \'); print('Body: \'); }
