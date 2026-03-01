@@ -85,7 +85,7 @@ class _OrderHistoryScreenState extends State<OrderHistoryScreen> {
           children: [
             Container(
               padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(color: statusColor.withValues(alpha: 0.1), shape: BoxShape.circle),
+              decoration: BoxDecoration(color: statusColor.withOpacity(0.1), shape: BoxShape.circle),
               child: Icon(statusIcon, color: statusColor, size: 28),
             ),
             const SizedBox(width: 14),
@@ -102,7 +102,7 @@ class _OrderHistoryScreenState extends State<OrderHistoryScreen> {
                     Text(order.sectionName, style: TextStyle(color: Colors.grey.shade600, fontSize: 13)),
                     Container(
                       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
-                      decoration: BoxDecoration(color: statusColor.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(12)),
+                      decoration: BoxDecoration(color: statusColor.withOpacity(0.1), borderRadius: BorderRadius.circular(12)),
                       child: Text(order.statusText, style: TextStyle(color: statusColor, fontSize: 12, fontWeight: FontWeight.bold)),
                     ),
                   ]),

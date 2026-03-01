@@ -167,7 +167,7 @@ class _OrdersScreenState extends State<OrdersScreen> with SingleTickerProviderSt
                 Container(
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
-                    color: const Color(0xFFB71C1C).withValues(alpha: 0.1),
+                    color: const Color(0xFFB71C1C).withOpacity(0.1),
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(Icons.restaurant, color: Color(0xFFB71C1C), size: 24),

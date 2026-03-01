@@ -68,7 +68,7 @@ class _ReceiptsScreenState extends State<ReceiptsScreen> {
                               contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                               leading: Container(
                                 padding: const EdgeInsets.all(10),
-                                decoration: BoxDecoration(color: Colors.redAccent.withValues(alpha: 0.1), shape: BoxShape.circle),
+                                decoration: BoxDecoration(color: Colors.redAccent.withOpacity(0.1), shape: BoxShape.circle),
                                 child: const Icon(Icons.receipt, color: Colors.redAccent, size: 24),
                               ),
                               title: Text(receipt['table_name'] as String, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),

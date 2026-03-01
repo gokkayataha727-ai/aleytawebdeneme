@@ -60,7 +60,7 @@ class _DiscountsScreenState extends State<DiscountsScreen> {
                             children: [
                               Container(
                                 padding: const EdgeInsets.all(16),
-                                decoration: BoxDecoration(color: Colors.orange.withValues(alpha: 0.1), shape: BoxShape.circle),
+                                decoration: BoxDecoration(color: Colors.orange.withOpacity(0.1), shape: BoxShape.circle),
                                 child: const Icon(Icons.discount, color: Colors.orange, size: 40),
                               ),
                               const SizedBox(height: 20),
@@ -81,7 +81,7 @@ class _DiscountsScreenState extends State<DiscountsScreen> {
                             children: [
                               Container(
                                 padding: const EdgeInsets.all(16),
-                                decoration: BoxDecoration(color: Colors.purple.withValues(alpha: 0.1), shape: BoxShape.circle),
+                                decoration: BoxDecoration(color: Colors.purple.withOpacity(0.1), shape: BoxShape.circle),
                                 child: const Icon(Icons.receipt, color: Colors.purple, size: 40),
                               ),
                               const SizedBox(height: 20),

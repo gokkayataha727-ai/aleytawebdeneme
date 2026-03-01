@@ -456,7 +456,7 @@ class _MenuScreenState extends State<MenuScreen> {
       borderRadius: BorderRadius.circular(15),
       child: Container(
         width: 28, height: 28,
-        decoration: BoxDecoration(color: color.withValues(alpha: 0.15), shape: BoxShape.circle),
+        decoration: BoxDecoration(color: color.withOpacity(0.15), shape: BoxShape.circle),
         child: Icon(icon, size: 16, color: color),
       ),
     );

@@ -95,7 +95,7 @@ class _MenuManagementScreenState extends State<MenuManagementScreen> {
             Expanded(child: Text(category['name'] as String, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16))),
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-              decoration: BoxDecoration(color: typeColor.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(8), border: Border.all(color: typeColor.withValues(alpha: 0.3))),
+              decoration: BoxDecoration(color: typeColor.withOpacity(0.1), borderRadius: BorderRadius.circular(8), border: Border.all(color: typeColor.withOpacity(0.3))),
               child: Text(typeLabel, style: TextStyle(fontSize: 11, color: typeColor, fontWeight: FontWeight.bold)),
             ),
             const SizedBox(width: 8),
